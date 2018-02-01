@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from getbootstrap.com/docs/4.0/examples/album/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jan 2018 15:12:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+     <link rel="icon" href="assets/font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <title>Album example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    <style>
+        .bg-img1 {
+    background: url(assets/images/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.block{
+    display: block;
+     
+}
+.space1{
+    margin-left: 100px;
+}
+.space{
+     margin-left: 30px;
+}
+.space:hover, .space1:hover{
+    background-color: white;
+    color: black;
+}
+    </style>
+  </head>
+
+  <body  >
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Album</strong>
+          </a>
+            <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Album</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" style="background-color:white;">
+
+      <section class="bg-img1" style="height:600px;">
+          <div class="container">
+            <!--<img src="assets/images/b1.jpg" class="img-responsive">-->
+            
+          <h4 class="text-white text-center jumbotron-heading">
+              <div><img src="assets/images/logo.png" class="img-responsive" style="width:50px; height:50px;"></div>
+              <p style="font-family:Freestyle Script,Brush Script Std; font-size: 50px;">Spicy Bite</p>
+               <p style="font-family:Chaparral Pro,Brush Script Std; font-size: 50px;">Tasty experience in every bite!</p>
+               <p><span class=" text-white fa fa-cutlery">jj</span></p>
+          </h4>
+            
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light" style="background-color:white !important;">
+          
+        <div class="" style="background-color:white; margin: 0px; overflow: hidden;">
+
+          <div class="row" style="background-color:white; padding: 70px">
+           
+                <div class="row" style="background-color:white;">
+                    <div class="col-md-6" style="margin-right:-1px">
+                        <img width="800px" height="400px"  src="assets/images/about.jpg" class="img-responsive"> 
+                    </div>
+                    <div class="col-md-6" style="background-color: #262626; color: white; margin-left:; padding: 10px;">
+                        <h3 style="font-family:Chaparral Pro,Brush Script Std;">Welcome to Spice Bite</h3> 
+                        <h4 style="font-family:Chaparral Pro,Brush Script Std;">Feel the flavour. feel the aroma. feel the taste in every bite</h4>
+                        <p style="color: grey">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                    </div>
+                </div>
+           
+            
+          </div>
+            
+        </div>
+          
+          <div style="margin:50px 0px; padding: 0; background-color: white;">
+          <div class="row" style="margin:50px 0px">
+              <div class="col-md-5 col-xs-12 col-sm-12" >
+                  <div class="row">
+                      <div class="col-md-6 col-xs-12" style="background-color:orange; padding: 40px; ">
+                          <h4 class="text-center text-white">Our Story</h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod    
+                          </p> 
+                      </div>
+                      <div class="col-md-6 col-xs-12" style="padding:0px;">
+                          <img class="img-responsive" height="100%" width="100%" style="margin:0px;" src="assets/images/g1.jpg"> 
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6 col-xs-12" style="padding:0px; margin:0px;">
+                          <img class="img-responsive" height="100%" style="margin:0px;" width="100%" src="assets/images/g7.jpg">   
+                      </div>
+                      <div class="col-md-6 col-xs-12" style="background-color: #00cc99; padding: 40px; margin:0px;">
+                          <h4 class="text-center text-white">Delicious food</h4>
+                          <p class="text-white">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod 
+                              
+                          </p> 
+                      </div>
+                  </div>
+              </div> 
+              <div class="col-md-7 col-xs-12 col-sm-12" style="margin-left: -15px; margin-right:-5px; width:100%;  ">
+                  <img class="img-responsive" width="100%" height="100%" style="" src="assets/images/modal.jpg">  
+              </div> 
+          </div>
+          </div>
+          
+          <div class="" style="overflow: hidden;background-color: white; margin:0; padding: 0px;">
+              
+               <div style="padding:50px; background-color: white;">
+              <h4 class="" style="color: maroon; font-style: oblique ">Taste The Best!</h4>
+               <div class="row" style="background-color: white;">  
+                  <!--<div  class="col-md-2" >
+                      <img style=" position: relative;  top:40%; border-color: gray " class="img-thumbnail" src="assets/images/prev.png">
+                      </div>-->
+                  
+                  <span class="pager btn" style="margin-left:200px;">
+                      <button style="position: relative; top:40%; background-color: white; border-color: gray " class="next btn btn-rounded">&lt;</button>
+                  </span>
+                  
+                  <div class="col-md-2 col-sm-12" style="margin-left:">
+                      <img class="img-responsive img-thumbnail" src="assets/images/g1.jpg"> 
+                  </div>
+                  <div class="col-md-2">
+                      <img class="img-responsive img-thumbnail" src="assets/images/g2.jpg"> 
+                  </div>
+                  <div class="col-md-2">
+                      <img class="img-responsive img-thumbnail"  src="assets/images/g3.jpg"> 
+                  </div>
+                  <div class="col-md-2" >
+                      <img class="img-responsive img-thumbnail" src="assets/images/g4.jpg"> 
+                  </div>
+                 <span class="pager btn">
+                      <button style="position: relative; top:40%; background-color: white; border-color: gray " class="next btn btn-rounded">&gt;</button>
+                  </span>
+                  
+              </div>
+               </div>
+          </div>
+          
+          <div class="" style="overflow:hidden;">
+              <div class="row" style="background:url(assets/images/mbg.png) no-repeat; background-size: 100% 100%; margin-top: 40px; padding: 50px 200px; overflow:hidden;">
+                  <div class="col-md-12" style="background-color: whitesmoke; opacity: 0.7">
+                      <h4 class="text-center">Our Menu</h4>
+                      <div style="background:url(assets/images/black.png); color: white; margin:20px 20px;">
+                          <span class="space1">Break fast</span>
+                          <span class="space">lunch</span>
+                          <span class="space">starters</span>
+                          <span class="space">Dinner</span>
+                          <span class="space">Bugger</span>
+                          <span class="space">Pizza</span>
+                          <span class="space">Desert</span>
+                          <span class="space">Beverages</span>
+                      </div>
+                      
+                      <div class="table-responsive" style=" margin-top: 40px;">
+                          <table class="table table-bordered" style="border-color:maroon; background-color: white">
+                          <tr>
+                              <td>mmmm</td>
+                              <td> jccjc </td>
+                              <td>jjjje</td>
+                          </tr>
+                          <tr>
+                             <td>mmmm</td>
+                              <td> jccjc </td>
+                              <td>jjjje</td> 
+                          </tr>
+                          <tr>
+                             <td>mmmm</td>
+                              <td> jccjc </td>
+                              <td>jjjje</td> 
+                          </tr>
+                      </table>
+                     </div>
+                  </div>
+                  
+              </div> 
+          </div>
+          
+          
+          <div style=" overflow: hidden;">
+          <div style="background:url(assets/images/menu-bg.jpg); overflow: hidden;">
+          <div class="row" style=" padding: 80px 160px;">
+              <div class="col-md-12" style="background-color:white; border-style: dotted; border-color: maroon;">
+                  <img src="assets/images/menu1.png">
+                  <span style="font-family: cursive; font-size: 30px; color: maroon"> Special Dishes</span>
+                  
+                  <div class="row" style="margin: 10px ;margin-right:9px;" >
+                        <div class="col-md-5 col-xs-12" style="background-color: white; padding:4px;  border-width:; border-color: gray; margin-right:;  box-shadow: 2px 2px 2px 2px gray;">
+                      <img style="border-radius: 50px; display: inline-block; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m1.jpg">
+                      <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                         </div>
+                      <div class="col-md-1">
+                          
+                      </div>
+                  <div class="col-md-6" style="background-color: white; padding:4px; box-shadow: 2px 2px 2px 2px gray;  margin-left:;">
+                      <img style="border-radius: 50px; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m5.jpg">
+                      <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                  </div>
+                   </div> 
+                   <div class="row" style="margin: 10px ;margin-right:9px;" >
+                        <div class="col-md-5" style="background-color: white; padding:4px;  border-width:; border-color: gray; margin-right:;  box-shadow: 2px 2px 2px 2px gray;">
+                      <img style="border-radius: 50px; display: inline-block; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m2.jpg">
+                     <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                         </div>
+                      <div class="col-md-1">
+                          
+                      </div>
+                  <div class="col-md-6" style="background-color: white; padding:4px; box-shadow: 2px 2px 2px 2px gray;  margin-left:;">
+                      <img style="border-radius: 50px; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m6.jpg">
+                        <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                  </div>
+                   </div> 
+                   <div class="row" style="margin: 10px ;margin-right:9px;" >
+                        <div class="col-md-5" style="background-color: white; padding:4px;  border-width:; border-color: gray; margin-right:;  box-shadow: 2px 2px 2px 2px gray;">
+                      <img style="border-radius: 50px; display: inline-block; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m3.jpg">
+                     <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                         </div>
+                      <div class="col-md-1">
+                          
+                      </div>
+                  <div class="col-md-6" style="background-color: white; padding:4px; box-shadow: 2px 2px 2px 2px gray;  margin-left:;">
+                      <img style="border-radius: 50px; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m7.jpg">
+                       <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                  </div>
+                   </div> 
+                  <div class="row" style="margin: 10px ;margin-right:9px;" >
+                        <div class="col-md-5" style="background-color: white; padding:4px;  border-width:; border-color: gray; margin-right:;  box-shadow: 2px 2px 2px 2px gray;">
+                      <img style="border-radius: 50px; display: inline-block; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m4.jpg">
+                     <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                         </div>
+                      <div class="col-md-1">
+                          
+                      </div>
+                  <div class="col-md-6" style="background-color: white; padding:4px; box-shadow: 2px 2px 2px 2px gray;  margin-left:;">
+                      <img style="border-radius: 50px; border-width:4px;  border-color: maroon;" class="img-responsive img-thumbnail" src="assets/images/m1.jpg">
+                       <div style="display:inline-block;">
+                      <h5 style="font-family: cursive;">Mauris totor 
+                      <span class="pull-left text-success" style="margin-left:50px">
+                         $50</span></h5>
+                          <span>nam libro</span>
+                          
+                      </div>
+                  </div>
+                   </div>
+                  
+                  <div class="row" style=" margin:20px">
+                      <div class="col-md-6 col-md-offset-4" >
+                          <button style="margin-left:290px; color: white; background-color: maroon">Load more | <span>&bigvee;</span></button>  
+                      </div>
+                      <div class="col-md-6 " >
+                          <button style=" color: white; background-color: maroon">Load more |<span>&vee;</span></button>  
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          
+              <div class="row" style="background-color:white; padding-left:150px; ">
+                  <div class="col-md-10" style="background:url(assets/images/sub.jpg) 100% 100%; margin:50px; ">
+                      <h4 class="text-center" style="font-family:cursive; color: white; margin:50px;">Opening TImes</h4>
+                      <div style=" border-style: solid;  border-color: white; margin:50px;">
+                          <h6 class="text-center" style="font-family:cursive; color: white;">Monday - Friday</h6>
+                          <p align="center" style="font-family:cursive; color:grey;">9:00 Am - 11:00 Pm</p>
+                          <h6 class="text-center" style="font-family:cursive; color: white;">Saturday - Sunday</h6>
+                          <p align="center" style="font-family:cursive; color:grey;">8:00 Am - 00:00 Am</p>
+                      </div>
+                  </div>
+              </div>
+              
+          <div style="overflow: hidden;">
+              <div class="row" style="background-color: #cc0033; padding-left:220px; padding-top:20px; color:white ">
+                  
+                  <div class="col-md-4 col-xs-12">
+                      <h4 style="font-family:cursive"> Make A Reservation</h4>
+                      <img style="position:relative; top:10px;" class="img-thumbnail pull-left" width="200px" height="50px" src="assets/images/reserve.jpg">
+                  </div>
+                  
+                  <div class="col-md-8 col-xs-12" style="margin-left:-250px; margin-top:200px;" >
+                      <form role="form">
+                        <div class="form-group">
+                        <label for="name">Date:</label>
+                        <input type="text" class="form-control" id="name"
+                        placeholder="">
+                        </div>
+                          
+                          <div class="form-group">
+                              
+                              
+                              <div class="row">
+                                  <div class="col-md-6">
+                                  <label class="" for="name">Number of people</label>
+                        <select class="form-control " id="name">
+                            <option> 1</option>
+                             <option> 2</option>
+                        </select>
+                                  </div>
+                                  
+                        <div class=" col-md-6">
+                        <label class="" for="name">TIme</label>
+                        <select  class="form-control " id="name">
+                            <option>time 1</option>
+                             <option>time 2</option>
+                        </select>
+                              </div>
+                              </div>        
+                              
+                              
+                        </div>
+                          
+                          <div class="form-group">
+                        <label for="name">Contact Info:</label>
+                        <input type="text" class="form-control" id="name"
+                        placeholder="Phone number">
+                        </div>
+                          <div class="form-group">
+                       
+                        <input type="submit" value="BOOK A TABLE" style="background-color: #00cccc; " class="form-control b" id="name"
+                        placeholder="Enter Name">
+                        </div>
+                        
+                      </form>
+                  </div>
+              </div>
+              </div>
+              
+          
+              <div class="" style="background-color:white; padding: 100px; padding-left: 100px;">
+              <div class="row">
+                  <div class="col-md-6" style="margin-right:-200px">
+                      <img class="img-responsive" src="assets/images/t1.jpg"  >
+                  </div>
+                  <div class="col-md-6" style="margin-left:-100px">
+                      <h4>Executive Chef</h4>
+                      <hr style="color:black;">
+                      <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                      </p>
+                  </div>
+              </div>
+                  <br>
+                   <div class="row">
+                  <div class="col-md-6" style="margin-left:200px">
+                      <img class="img-responsive" src="assets/images/t3.jpg"  >
+                  </div>
+                  <div class="col-md-4" style="position:relative; top:-80px;">
+                       <img class="img-responsive" src="assets/images/t2.jpg"  >
+                  </div>
+              </div>
+                  
+                  <div class="row">
+                      <div class="col-md-6" style="margin-left:200px">
+                          <h4>Sous Chef</h4>
+                          <hr>
+                          <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                      </p>
+                      </div>
+                      <div class="col-md-4">
+                           <h4>Head Chef</h4>
+                           <hr>
+                           <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                      </p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="row" style="background:url(assets/images/b1.jpg) 100% 100%; padding: 250px 0">
+                  <div class="col-md-5" style="background-color:#cc0033; opacity: 0.5; color:white; padding: 50px;">
+                      <h4 style="font-family:cursive">Fresh Ingredients, Tasty ,meal</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod   
+                      </p>
+                      
+                  </div>
+              </div>
+              
+              <div style="padding:50px; background-color: white;">
+              <h4 class="text-center" style="color: maroon; font-style: oblique ">Taste The Best!</h4>
+               <div class="row" style="background-color: white;">  
+                  <!--<div  class="col-md-2" >
+                      <img style=" position: relative;  top:40%; border-color: gray " class="img-thumbnail" src="assets/images/prev.png">
+                      </div>-->
+                  
+                  <span class="pager btn" style="margin-left:200px;">
+                      <button style="position: relative; top:40%; background-color: white; border-color: gray " class="next btn btn-rounded">&lt;</button>
+                  </span>
+                  
+                  <div class="col-md-3" style="background-color:#00cccc; border-radius:10px; margin-right:10px; box-shadow: 2px 2px 2px 2px gray; padding: 15px;">
+                      <h3 style="color-maroon">Nam Libero</h3>
+                      <h5>My ratting <span style="font-size: 30px;">&Star;&Star;&Star;&Star;&Star;</span></h5>
+                      <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod  
+                      </p>
+                     
+                  </div>
+                  <div class="col-md-3" style="background-color:#00cccc; margin-right:10px; border-radius:10px; box-shadow: 2px 2px 2px 2px gray; padding: 15px;">
+                      <h3 style="color-maroon">Nam Libero</h3>
+                      <h5>My ratting <span style="font-size: 30px;">&Star;&Star;&Star;&Star;&Star;</span></h5>
+                      <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod  
+                      </p>
+                  </div>
+                  <div class="col-md-3" style="background-color:#00cccc; border-radius:10px; box-shadow: 2px 2px 2px 2px gray; padding: 15px;">
+                      <h3 style="color-maroon">Nam Libero</h3>
+                      <h5>My ratting <span style="font-size: 30px;">&Star;&Star;&Star;&Star;&Star;</span></h5>
+                      <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod 
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                         sed do eiusmod  
+                      </p>
+                  </div>
+                 
+                 <span class="pager btn">
+                      <button style="position: relative; top:40%; background-color: white; border-color: gray " class="next btn btn-rounded">&gt;</button>
+                  </span>
+                  
+              </div>
+              
+              <br>
+              
+              <div class="row" style="margin-left:400px;">
+                  <div class="col-md-4">
+                          <img height="100px" src="assets/images/f.png">
+                          <h5 class="" style="color:maroon;">Anna</h5>
+                          <p style="color:;">from Geogia Scotland</p>
+                  </div>
+                  <div class="col-md-4">
+                          <img height="100px" src="assets/images/m.png">
+                          <h5 class="" style="color:maroon;">Elia Mentrego</h5>
+                          <p style="color:;">United States</p>
+                  </div>
+                  <div class="col-md-4">
+                      <img height="100px" src="assets/images/m.png">
+                      <h5 class="" style="color:maroon;">Rannym</h5>
+                          <p style="color:;">Indonesia</p>
+                          
+                  </div>
+                  
+              </div>
+               </div>
+              
+              
+              <div class="row">
+                  <div class="col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.45932462343!2d3.143869726060192!3d6.5483768143074315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1517420584990" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-md-6" style="border-width:20px; border-color:#00cccc; border-style: solid; background-color: white; padding: 30px;">
+                      <h3 class="maroon">Get In Touch</h3>
+                      <form role="form" >
+                          <div class="form-group">  
+                              <div class="row">
+                                  <div class="col-md-6">
+                                 
+                        <input type="text" class="form-control" id="name"
+                        placeholder="first name">
+                                  </div>
+                                  
+                        <div class=" col-md-6">
+                        <input type="text" class="form-control" id="name"
+                        placeholder="last name">
+                              </div>
+                              </div>
+                              <br>
+                              <div class="row">
+                                  <div class="col-md-6">
+                                 
+                        <input type="email" class="form-control" id="name"
+                        placeholder="Email">
+                                  </div>
+                                  
+                        <div class=" col-md-6">
+                            
+                               <input type="text" class="form-control" id="name"
+                        placeholder="Subject"> 
+                              </div>
+                              </div>
+                              
+                              
+                        </div>
+                          
+                          <div class="form-group">
+                              <textarea type="text" class="form-control" id="name" placeholder="Mesage"></textarea>
+                       
+                        </div>
+                          <div class="form-group">
+                        <input type="submit" value="Send Message " style="background-color:maroon; color:white; " class="col-md-6 form-control" id="name"
+                        placeholder="Enter Name">
+                        </div>
+                        
+                      </form>
+                  </div>
+              </div>
+              
+              <div class="row" style="background-color:maroon; padding-left: 200px;">
+                  
+                  <div class="col-md-4" style="">
+                      <span class="text-center" style=" background-color:#00cccc; width: 500px; height:500px; font-size: 100px; border-radius:50%;">
+                      <span style=" background-color:#00cccc;  font-size: 30px; color:maroon; margin-left:30px; margin-bottom:20px;  " class="fa fa-envelope "></span> 
+                      </span>
+                      <span class="" style="color:white;">info@mail.com</span> 
+                  </div>
+                  <div class="col-md-4">
+                      <span class="text-center" style=" background-color:#00cccc; width: 500px; height:500px; font-size: 100px; border-radius:50%;">
+                      <span style=" background-color:#00cccc;  font-size: 30px; color:maroon; margin-left:30px; margin-bottom:20px;  " class="fa fa-phone "></span> 
+                      </span>
+                      <span class="" style="color:white;">+234 567 567</span>
+                  </div>
+                  <div class="col-md-4">
+                      <span class="text-center" style=" background-color:#00cccc; width: 500px; height:500px; font-size: 100px; border-radius:50%;">
+                      <span style=" background-color:#00cccc;  font-size: 30px; color:maroon; margin-left:30px; margin-bottom:20px;  " class="fa fa-map-marker "></span> 
+                      </span>
+                      <span class="" style="color:white;">1234k Avenue 4th floor New York city</span>
+                  </div>
+                      
+              </div>
+              
+               <div class="row" style="background-color:white; padding-left:150px; ">
+                  <div class="col-md-10" style="background:url(assets/images/sub.jpg) 100% 100%; margin:50px; ">
+                      <h4 class="text-center" style="font-family:cursive; color: white; margin:50px;">GEt Subscribed</h4>
+                     
+                          <h6 class="text-center" style="font-family:cursive; color: white;">GEt the latest 
+                          and best Coupons/ Offer Alerts also get up to 10% of your first food order</h6>
+                          <p align="center" style="font-family:cursive; color:grey;">Never miss out our latest
+                          sales and best food offers</p>
+                          <h6 class="text-center" style="font-family:cursive; color: white;">
+                              <form role="form" >
+                          <div class="form-group">  
+                              <input type="email" style="width:50%; margin-left:150px; display: inline" class="form-control input-sm" id="name"
+                        placeholder="email">
+                              <input type="submit" style="display:inline;" class="" value="subscribe">
+                                  </div>
+                              </form>
+                                  
+                          </h6>
+                          <p align="center" style="font-family:cursive; color:grey;">We value your privacy
+                              and guarantee zero spamming</p>
+                      
+                  </div>
+              </div>
+              
+              
+         </div> 
+          
+      </div>
+
+    </main>
+
+      <footer class="text-muted" style="overflow:hidden">
+      <div class="row" style="background-color:maroon; padding-left: 700px; padding-top: 20px;">
+                 <div class="col-md-8" style="margin-left:30px;">
+                      <span class="text-center" style=" border-radius:50%;  color:white; background-color:blue;  width:; font-size: 50px;">
+                      <span style="  font-size: 30px; color:white; margin-left:20px;   margin-bottom:20px;  " class="fa fa-facebook "></span> 
+                      </span>
+                     <span class="text-center" style="border-radius:50%; margin-left:20px;  color:white; background-color:lightblue;  width:; font-size: 50px;">
+                      <span style="  font-size: 30px; color:white; margin-left:20px;   margin-bottom:20px;  " class="fa fa-twitter "></span> 
+                      </span>
+                     <span class="text-center" style=" border-radius:50%; margin-left:20px;  color:white; background-color:magenta;  width:; font-size: 50px;">
+                      <span style="  font-size: 30px; color:white; margin-left:20px;  margin-bottom:20px;  " class="fa fa-dribbble "></span> 
+                      </span>
+                     <span class="text-center" style="border-radius:50%; margin-left:20px;  color:white; background-color:red;  width:; font-size: 50px;"">
+                      <span style="  font-size: 30px; color:white; margin-left:20px; margin-bottom:20px;  " class="fa fa-youtube "></span> 
+                      </span>
+                      <p class=" text-white">
+                      &copy;2017 Spicy Bite, All right reserved 
+                  </p>
+                  </div>
+                  
+              </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/vendor/jquery-slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/holder.min.js"></script>
+  </body>
+
+<!-- Mirrored from getbootstrap.com/docs/4.0/examples/album/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jan 2018 15:12:46 GMT -->
+</html>
